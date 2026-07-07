@@ -2,6 +2,8 @@
 
 **Multi-Agent Personal Finance Assistant** — Track: Concierge Agents
 
+![Subscription Watchdog Dashboard Mockup](assets/dashboard_mockup.png)
+
 Subscription Watchdog monitors your Gmail inbox for subscription activity — new sign-ups, renewals, and price changes — and takes **safe, human-approved action** to stop silent money leakage.
 
 Unlike passive dashboard apps that surface insights for you to act on manually, Subscription Watchdog **closes the loop**: it detects, decides against your policy, drafts the cancellation or negotiation email, and **only sends after your explicit approval**.
@@ -21,6 +23,8 @@ Recurring subscriptions are structurally designed to be forgotten. Free trials c
 ---
 
 ## 🏗️ Architecture
+
+![Subscription Watchdog Multi-Agent Architecture](assets/system_architecture.png)
 
 ```
 Gmail MCP ──▶ Scanner Agent ──▶ Comparator Agent ──▶ Decision Agent ──▶ Drafting Agent
