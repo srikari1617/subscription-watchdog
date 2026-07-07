@@ -1,0 +1,39 @@
+# =============================================================================
+# Subscription Watchdog — .gitignore
+#
+# SECURITY (PRD Section 9): API keys, OAuth tokens, and the local database
+# must NEVER be committed to the repository.
+# =============================================================================
+
+# --- Secrets & Credentials ---
+.env
+credentials.json
+token.json
+calendar_token.json
+
+# --- Local Database ---
+subscriptions.db
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# --- Virtual Environment ---
+.venv/
+venv/
+env/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS ---
+.DS_Store
+Thumbs.db

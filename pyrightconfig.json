@@ -1,0 +1,11 @@
+{
+  "venvPath": "e:/Subscription Watchdog",
+  "venv": ".venv",
+  "pythonVersion": "3.12",
+  "pythonPlatform": "Windows",
+  "extraPaths": [
+    "e:/Subscription Watchdog",
+    "e:/Subscription Watchdog/.venv/Lib/site-packages"
+  ],
+  "typeCheckingMode": "basic"
+}

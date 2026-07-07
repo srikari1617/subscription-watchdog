@@ -1,0 +1,28 @@
+# =============================================================================
+# Subscription Watchdog — Python Dependencies
+#
+# Install with: pip install -r requirements.txt
+# Requires Python >= 3.10
+# =============================================================================
+
+# --- Google GenAI SDK (ADK) ---
+# Used by Scanner Agent (extraction) and Drafting Agent (email generation)
+google-genai>=1.0.0
+groq>=0.9.0
+
+# --- MCP SDK ---
+# Model Context Protocol server framework for Gmail and Calendar tools
+mcp>=1.0.0
+
+# --- Google API Clients ---
+# Used by MCP servers to interact with Gmail and Calendar APIs
+google-api-python-client>=2.100.0
+google-auth-httplib2>=0.2.0
+google-auth-oauthlib>=1.0.0
+
+# --- Environment Management ---
+python-dotenv>=1.0.0
+
+# --- Dashboard UI ---
+streamlit>=1.30.0
+pandas>=2.0.0
